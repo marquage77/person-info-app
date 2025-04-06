@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f1f1f1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #aaa;
+  max-width: 400px;
+  width: 100%;
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.info-box {
+  margin-top: 20px;
+}
+
+.info-box img {
+  width: 100%;
+  max-width: 200px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
