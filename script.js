@@ -1,7 +1,7 @@
 const people = {
   "sellam abdelkarim": {
     info: "سلام عبد الكريم - عامل",
-      image: "https://drive.google.com/uc?export=view&id=PASTE_IMAGE_ID"
+      image: "https://i.ibb.co/Rp1Dnjbz/987a35ec-beff-429d-bfe7-63c34dcf3f0d.jpg"
   },
   "ayoub bennis": {
     info: "أيوب بنّيس - مهندس بيانات",
