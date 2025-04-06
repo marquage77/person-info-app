@@ -1,7 +1,7 @@
 const people = {
   "hicham tadi": {
     info: "Hicham Tadi - Responsable Amélioration Continue",
-    image: "https://drive.google.com/uc?export=view&id=PASTE_YOUR_IMAGE_ID_HERE"
+    image: "https://drive.google.com/uc?export=view&id=1YPWWF4ezEEy8zBWi8sJpnX4VfTuygJ9a/view"
   },
   // يمكنك إضافة أشخاص آخرين هنا
 };
