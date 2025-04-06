@@ -1,25 +1,28 @@
 const people = {
   "hicham tadi": {
-    info: "Hicham Tadi - Responsable Amélioration Continue",
-    image: "https://drive.google.com/uc?export=view&id=1YPWWF4ezEEy8zBWi8sJpnX4VfTuygJ9a/view"
+    info: "هشام تادي - مسؤول التحسين المستمر",
+    image: "https://drive.google.com/file/d/1YPWWF4ezEEy8zBWi8sJpnX4VfTuygJ9a/view?usp=sharing" // <-- عوض هذا بالـ ID ديال الصورة
   },
-  // يمكنك إضافة أشخاص آخرين هنا
+  "ayoub bennis": {
+    info: "أيوب بنّيس - مهندس بيانات",
+    image: "https://drive.google.com/uc?export=view&id=PASTE_IMAGE_ID"
+  }
 };
 
 function showInfo() {
-  const name = document.getElementById("nameInput").value.toLowerCase().trim();
-  const person = people[name];
+  const nameInput = document.getElementById("nameInput").value.toLowerCase().trim();
+  const person = people[nameInput];
 
-  const infoBox = document.getElementById("infoBox");
-  const personInfo = document.getElementById("personInfo");
-  const personImage = document.getElementById("personImage");
+  const infoElement = document.getElementById("personInfo");
+  const imageElement = document.getElementById("personImage");
 
   if (person) {
-    personInfo.textContent = person.info;
-    personImage.src = person.image;
-    personImage.style.display = "block";
+    infoElement.textContent = person.info;
+    imageElement.src = person.image;
+    imageElement.style.display = "block";
   } else {
-    personInfo.textContent = "لا توجد معلومات عن هذا الشخص.";
-    personImage.style.display = "none";
+    infoElement.textContent = "لا توجد معلومات عن هذا الشخص.";
+    imageElement.src = "";
+    imageElement.style.display = "none";
   }
 }
