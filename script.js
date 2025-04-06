@@ -1,7 +1,7 @@
 const people = {
-  "hicham tadi": {
-    info: "هشام تادي - مسؤول التحسين المستمر",
-    image: "https://drive.google.com/file/d/1YPWWF4ezEEy8zBWi8sJpnX4VfTuygJ9a/view?usp=sharing" // <-- عوض هذا بالـ ID ديال الصورة
+  "sellam abdelkarim": {
+    info: "سلام عبد الكريم - عامل",
+    image: "https://i.ibb.co/Rp1Dnjbz/987a35ec-beff-429d-bfe7-63c34dcf3f0d.jpg" // <-- عوض هذا بالـ ID ديال الصورة
   },
   "ayoub bennis": {
     info: "أيوب بنّيس - مهندس بيانات",
