@@ -1,20 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Person Info App</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>معلومات الأشخاص</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
-    <h1>معلومات الشخص</h1>
-    <input type="text" id="nameInput" placeholder="أدخل اسم الشخص" />
+    <h1>معلومات عن الأشخاص</h1>
+
+    <input id="nameInput" type="text" placeholder="أدخل اسم الشخص" />
     <button onclick="showInfo()">عرض المعلومات</button>
 
-    <div id="infoBox" class="info-box">
-      <p id="personInfo"></p>
-      <img id="personImage" src="" alt="" />
+    <div id="infoContainer">
+      <div class="info-section">
+        <h2>المعلومة:</h2>
+        <p id="personInfo">---</p>
+      </div>
+      <div class="image-section">
+        <h2>الصورة:</h2>
+        <img id="personImage" src="" alt="صورة الشخص" />
+      </div>
     </div>
   </div>
 
